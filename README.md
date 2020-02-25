@@ -14,6 +14,12 @@ The following **required** functionality is completed:
   - [x] User is displayed the [relative timestamp](https://gist.github.com/nesquena/f786232f5ef72f6e10a7) for each tweet "8m", "7h"
 - [X] User can refresh tweets timeline by pulling down to refresh
 
+  - [X] User can click a “Compose” icon in the Action Bar on the top right
+  - [X] User can then enter a new tweet and post this to twitter
+  - [X] User is taken back to home timeline with **new tweet visible** in timeline
+  - [X] Newly created tweet should be manually inserted into the timeline and not rely on a full refresh
+  - [X] User can **see a counter with total number of characters left for tweet** on compose tweet page
+
 The following **optional** features are implemented:
 
 - [ ] User can view more tweets as they scroll with infinite pagination
@@ -22,7 +28,11 @@ The following **optional** features are implemented:
 - [ ] On the Twitter timeline, leverage the CoordinatorLayout to apply scrolling behavior that hides / shows the toolbar.
 - [ ] Replace all icon drawables and other static image assets with [vector drawables](http://guides.codepath.org/android/Drawables#vector-drawables) where appropriate.
 - [ ] User can see embedded image media within the tweet detail view
-- [ ] User sees an **indeterminate progress indicator** when any background or network task is happening
+- [ ] User sees an **indeterminate progress indicator** when any back- [X] User can click a “Compose” icon in the Action Bar on the top right
+  - [X] User can then enter a new tweet and post this to twitter
+  - [X] User is taken back to home timeline with **new tweet visible** in timeline
+  - [X] Newly created tweet should be manually inserted into the timeline and not rely on a full refresh
+  - [X] User can **see a counter with total number of characters left for tweet** on compose tweet pageground or network task is happening
 - [ ] User can **see embedded image media within a tweet** on list or detail view.
 - [ ] User can **click a link within a tweet body** on tweet details view. The click will launch the web browser with relevant page opened.
 - [ ] User can view following / followers list through any profile they view.
@@ -37,6 +47,8 @@ The following **additional** features are implemented:
 Here's a walkthrough of implemented user stories:
 
 <img src='https://i.imgur.com/mVE3oq6.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+<img src='https://i.imgur.com/QbCZdWU.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [Peek](https://github.com/phw/peek).
 
